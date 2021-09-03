@@ -1,0 +1,132 @@
+:root {
+    --n-bg: #282a36;
+    --n-icon-color: #e0fbfc;
+    --n-nav-toolbar-padding: 8px;
+    --n-sidebar-bg: var(--n-bg);
+    --n-sidebar-color: #e0fbfc;
+    --n-tab-border-radius: 0px;
+    --n-tab-color: #fefefa;
+    --n-tab-font-family: "VictorMono Nerd Font", sans;
+    --n-tab-font-size: 11pt;
+    --n-tab-font-weight: 400;
+    --n-tab-height: 32px;
+    --n-tab-pinned-bg: #70c1b3;
+    --n-tab-selected-bg: #ee6c4d;
+    --n-tab-soundplaying-bg: #9c89b8;
+    --n-urlbar-color: #98c1d9;
+    --n-urlbar-focused-color: #e0fbfc;
+    --n-urlbar-font-family: "VictorMono Nerd Font", serif;
+    --n-urlbar-font-size: 12pt;
+    --n-urlbar-font-weight: 700;
+    --n-urlbar-results-color: #e0fbfc;
+    --n-urlbar-results-font-family: "VictorMono Nerd Font", serif;
+    --n-urlbar-results-font-size: 12pt;
+    --n-urlbar-results-font-weight: 700;
+    --n-urlbar-results-url-color: #98c1d9;
+    /*   --n-tab-selected-bg: linear-gradient(90deg, rgba(232,74,95,1) 0%, rgba(255,132,124,1) 50%, rgba(254,206,168,1) 100%); */
+    /*   --n-urlbar-font-weight: 600; */
+    /* Overriden Firefox variables*/
+    --autocomplete-popup-background: var(--n-bg) !important;
+    --default-arrowpanel-background: var(--n-bg) !important;
+    --default-arrowpanel-color: #fefefa !important;
+    --lwt-toolbarbutton-icon-fill: var(--n-icon-color) !important;
+    --panel-disabled-color: #f9f9fa80;
+    --toolbar-bgcolor: var(--n-bg) !important;
+    --urlbar-separator-color: transparent !important;
+    --bookmark-block-padding: 4px 6px !important;
+    --arrowpanel-menuitem-padding: 2px 8px !important;
+    --tab-block-margin: 0px !important;
+    --tab-border-radius: 0px !important;
+    --arrowpanel-border-radius: 0px !important;
+    --arrowpanel-padding-inline: 2px !important;
+    --arrowpanel-background: #282a36 !important;
+    --arrowpanel-color: #fafafa !important;
+    --arrowpanel-hover-background-color: #333 !important;
+    --arrowpanel-disabled-hover-background-color: #333 !important;
+    --arrowpaenl-disabled-color: #6272a4 !important;
+    --arrowpanel-border-color: #44475a !important;
+    --arrowpanel-icon-opacity: 0.7 !important;
+    /* now the history sidebar color */
+    --lwt-sidebar-background-color: #282a36 !important;
+}
+
+.tab-text {
+    font-family: var(--n-tab-font-family);
+    font-weight: var(--n-tab-font-weight);
+    font-size: var(--n-tab-font-size) !important;
+    color: var(--n-tab-color);
+}
+
+#tabbrowser-tabs {
+    --tab-line-color: #282a36 !important;
+}
+
+#urlbar-results {
+    font-family: var(--n-urlbar-results-font-family);
+    font-weight: var(--n-urlbar-results-font-weight);
+    font-size: var(--n-urlbar-results-font-size) !important;
+    /* color: var(--n-urlbar-results-color) !important; */
+}
+
+.urlbarView-url,
+.search-panel-one-offs-container {
+    /* color: var(--n-urlbar-results-url-color) !important; */
+    font-family: var(--n-urlbar-font-family);
+    font-weight: var(--n-urlbar-results-font-weight);
+    font-size: var(--n-urlbar-font-size) !important;
+}
+
+#urlbar-input {
+    font-size: var(--n-urlbar-font-size) !important;
+    /* color: var(--n-urlbar-color) !important; */
+    font-family: var(--n-urlbar-font-family) !important;
+    font-weight: var(--n-urlbar-font-weight)!important;
+    text-align: center !important;
+}
+
+toolbar {
+    background-image: none !important;
+}
+
+#urlbar-background {
+    opacity: .98 !important;
+}
+
+#navigator-toolbox,
+toolbaritem {
+    border: none !important;
+}
+
+#urlbar-background {
+    background-color: var(--n-bg) !important;
+    border: none !important;
+}
+
+.toolbar-items {
+    background-color: var(--n-bg) !important;
+}
+
+.urlbarView-row[type="bookmark"]>span {
+    color: green !important;
+}
+
+.urlbarView-row[type="switchtab"]>span {
+    color: orange !important;
+}
+
+#urlbar {
+    max-width: 70% !important;
+    margin: 0 15% !important;
+    /* 	position: unset!important; */
+}
+
+
+/* This positions the tabs under the navaigator container */
+
+#titlebar {
+    -moz-box-ordinal-group: 3 !important;
+}
+
+#sidebar-box {
+    --sidebar-background-color: #282a36 !important;
+}

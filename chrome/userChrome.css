@@ -15,11 +15,11 @@
     --n-tab-soundplaying-bg: #9c89b8;
     --n-urlbar-color: #98c1d9;
     --n-urlbar-focused-color: #e0fbfc;
-    --n-urlbar-font-family: "VictorMono Nerd Font", serif;
+    --n-urlbar-font-family: "VictorMono Nerd Font", sans;
     --n-urlbar-font-size: 12pt;
     --n-urlbar-font-weight: 700;
     --n-urlbar-results-color: #e0fbfc;
-    --n-urlbar-results-font-family: "VictorMono Nerd Font", serif;
+    --n-urlbar-results-font-family: "VictorMono Nerd Font", sans;
     --n-urlbar-results-font-size: 12pt;
     --n-urlbar-results-font-weight: 700;
     --n-urlbar-results-url-color: #98c1d9;

@@ -12,9 +12,13 @@
 
 - Type this is address bar - `about:config`
 - Search for this `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`.
+- Search for this `browser.compactmode.show` and set it to `true`.
+- Click on `Menu` `->` `More Tools` `->` `Customize Toolbar`, at the bottom panel click `Density`
+  and Choose `Compact (not supported)`, click `Done`
 - Type this in the address bar - `about:support` 
 - Now search for `Profile Directory`, and open that directory.
-- Now create a folder named `chrome` (if it is not present) and copy the `useChrome.css` and `useContent.css` form my repo there.
+- Now create a folder named `chrome` (if it is not present) and copy the `useChrome.css` and `useContent.css` form my repo there.1
+- Modify the font with what you like in the `userChrome.css`
 
 ## Common issues
 

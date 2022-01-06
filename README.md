@@ -73,3 +73,20 @@ Reference:
 - want the popup menus to stay open until you press `esc`
   1. type `about:config` in the url
   2. search for `ui.popup.disable_autohide` and change its value to true
+
+## Other things you should do
+
+- Use darkreader extension, and stylus extension for custom stylesheets.
+- Make you own home page. To set it as a new tab page
+  go to the firefox install directory and make a file `autoconfig.cfg`
+  and copy this in it, and change the `newTabURL` with you own.
+```
+// mozilla.cfg needs to start with a comment line
+var {classes:Cc,interfaces:Ci,utils:Cu} = Components;
+/* set new tab page */
+try {
+  Cu.import("resource:///modules/AboutNewTab.jsm");
+  var newTabURL = "file:///home/totoro/.startpage/index.html";
+  AboutNewTab.newTabURL = newTabURL;
+} catch(e){Cu.reportError(e);} // report errors in the Browser Console
+```
